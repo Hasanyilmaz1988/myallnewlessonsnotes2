@@ -1,0 +1,33 @@
+
+table, th, td{
+    border: solid;
+    background-color: bisque;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+caption{
+    background-color:  bisque;
+    border-style: solid;
+    border-width: 2px 2px 0 2px;
+
+}
+
+table{
+    width: 50%;
+}
+#buttons{
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#boys{
+background-color: cornflowerblue;
+border: 2px solid rgb(52, 117, 237);
+}
+
+#girls{
+background-color: pink;
+border: 2px solid rgb(241, 129, 148);
+}
