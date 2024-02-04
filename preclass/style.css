@@ -1,0 +1,22 @@
+table, th, td{
+    border: solid;
+    background-color: bisque;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+caption{
+    background-color:  bisque;
+    border-style: solid;
+    border-width: 2px 2px 0 2px;
+
+}
+
+table{
+    width: 900px;
+}
+
+th{
+    width: 14%;
+}
+
