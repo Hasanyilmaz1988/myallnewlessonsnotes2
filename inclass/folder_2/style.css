@@ -1,33 +1,55 @@
+/* id #
+class . */
+
 
 table, th, td{
-    border: solid;
-    background-color: bisque;
+    border: 1px solid;
     border-collapse: collapse;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 caption{
-    background-color:  bisque;
     border-style: solid;
-    border-width: 2px 2px 0 2px;
-
+    border-width: 1px 1px 0 1px;
 }
-
 table{
-    width: 50%;
+    width: 55%;
 }
-#buttons{
-    width: 50%;
+.time{
+    text-align: center;    
+}
+#button-div{
+    /* background-color: red; */
+    width: 55%;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
+    
+}
+#button-girls{
+    background-color: pink;
+    border: 2px solid pink;
+  
+}
+#button-boys{
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+   
 }
 
-#boys{
-background-color: cornflowerblue;
-border: 2px solid rgb(52, 117, 237);
-}
 
-#girls{
-background-color: pink;
-border: 2px solid rgb(241, 129, 148);
+
+
+/* td{
+    height: 30px;  td/th/tr/caption gibi tagın ismini yazarak çağırabiliriz
 }
+#th-one{
+    background-color: red;
+}
+#th-two{
+    background-color: blue;
+}
+#th-three{
+    background-color: bisque;
+}
+.th{
+    background-color: blueviolet;
+} *Bizi tercih ettiğiniz için teşekkür ederiz! Tekrar görüşmek dileğiyle.
