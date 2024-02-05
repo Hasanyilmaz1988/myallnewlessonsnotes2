@@ -62,10 +62,10 @@ button_girls.onclick = function() {
     sport[4].style.color = "darkmagenta"
     //////////////////////////////////////
     book[0].innerHTML = ""
-    book[1].innerHTML = ""
-    book[2].innerHTML = ""
-    book[3].innerHTML = ""
-    book[4].innerHTML = ""
+    book[1].innerHTML = "Book"
+    book[2].innerHTML = "Book"
+    book[3].innerHTML = "Book"
+    book[4].innerHTML = "Book"
     
   
    
