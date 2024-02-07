@@ -5,6 +5,7 @@ var odd_rows = document.getElementsByClassName("odd_rows");
 var even_rows = document.getElementsByClassName("even_rows");
 var book = document.getElementsByClassName("book");
 var sport = document.getElementsByClassName("sport");
+var caption 
 
 button_boys.onclick =function() {
     caption.style.backgroundColor ="cornflowerblue";
