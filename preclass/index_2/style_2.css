@@ -1,0 +1,55 @@
+/* id #
+class . */
+
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+caption{
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+}
+table{
+    width: 55%;
+}
+.time{
+    text-align: center;    
+}
+#button-div{
+    /* background-color: red; */
+    width: 55%;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#button-girls{
+    background-color: pink;
+    border: 2px solid pink;
+  
+}
+#button-boys{
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+   
+}
+
+
+
+
+/* td{
+    height: 30px;  td/th/tr/caption gibi tagın ismini yazarak çağırabiliriz
+}
+#th-one{
+    background-color: red;
+}
+#th-two{
+    background-color: blue;
+}
+#th-three{
+    background-color: bisque;
+}
+.th{
+    background-color: blueviolet;
+} *Bizi tercih ettiğiniz için teşekkür ederiz! Tekrar görüşmek dileğiyle.
