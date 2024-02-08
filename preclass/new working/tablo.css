@@ -7,10 +7,12 @@ table{
 #id de kullanilir */
 
 .name{
-    text-align: left;
+    text-align: left; background-color: cadetblue;
 }
 
-
+.days{
+    background-color: bisque;
+}
 
 
 
