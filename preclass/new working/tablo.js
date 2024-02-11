@@ -8,20 +8,29 @@ var button_5 = document.getElementById("button_5");
 
 var buttons = document.getElementsByClassName("buttons")
 
+// button_1.onclick = function (){
+//     confirm("Are you sure?")
+//     if (("Are you sure?")); {
+//         button_1.style.backgroundColor = "green"}
+//     else {
+//         button_1.style.backgroundColor = "red"}
+//     } 
+    
 button_1.onclick = function (){
-    confirm("Are you sure?")
-    if (("Are you sure?")) {
+    if (confirm("Are you sure?") ==true){
         button_1.style.backgroundColor = "green"}
-    else{button_1.style.backgroundColor = "red"}
-    }
-    
-   
-    
+    else{
+        button_1.style.backgroundColor = "red"}
+    } 
+
 
 
 button_2.onclick = function (){
-    button_2.style.backgroundColor = "green" ;
-}
+    if (confirm("Are you sure?") ==true){
+        button_2.style.backgroundColor = "green"}
+    else{
+        button_2.style.backgroundColor = "white"}
+    } 
 
 button_3.onclick = function (){
     button_3.style.backgroundColor = "green" ;
