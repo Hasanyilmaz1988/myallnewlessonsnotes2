@@ -82,6 +82,67 @@
         }
     </style>
 
+<br><br><br><br><br><br><br><br>
+
+    <style>
+        .div{
+            /* width: 30%; */
+            /* float: left; */
+            /* buradaki float=left kodu sayesinde iki div i yanyana hale getiririz,
+            veya display-inline-block ile yine bunlari yanyana hale getirebiliriz, bunu kullaninca arada kucuk bosluk birakiyor */
+            /* display: inline-block; */
+            height: min-content;
+            /* buradaki height:min-content; kodu ile yanyana getirdigimiz divlerin minimum yukseklik kaplamasini saglariz */
+        }
+        #main_container{
+            /* display: flex; */
+            /* buradaki display.flex kodu ile div leri yanyana tasiyabiliriz, main container flexible hale gelirler yani */
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            /* buradaki display grid ile izgaralar haline getirip yanyana getirmis oluyoruz ve yuzde kac yer kaplayacagini belirliyoruz
+            hangisine yuzde vermezsek o asagi satirda kalmaya devam ediyor */
+        }
+
+
+    </style>
+
+
+    <main   id="main_container" 
+            style="background-color: aquamarine;
+                   height: 500px;
+                   padding-top: 50px;">
+        <div class="div" style="background-color: red;">
+            <h2>Istanbul</h2>
+            <p>Turkiyenin en buyuk sehridir</p>
+            <p>nufusu 20 milyon</p>
+        </div>
+
+        <div class="div" style="background-color: blue;">
+                <h2>Ankara</h2>
+                <p>Turkiyenin 2nci buyuk sehridir</p>
+                <p>nufusu 10 milyon</p>
+        </div>
+
+        <div class="div" style="background-color: yellow;">
+                <h2>Bursa</h2>
+                <p>Turkiyenin buyuk bir sehridir</p>
+                <p>nufusu 2 milyon</p>
+        </div>
+    </main>
+
+    <br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
