@@ -3,17 +3,36 @@ body{
 }
 
 #main_container{
-    display: flex; width: 400px;height: 400px; background-color: blue;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse;
+    bu kodlarla div i flexible hale getiriyoruz, 
+    flex direction kodu ilede ic hizalamanin nasil olacagini ayarliyoruz
+    ornegin sagdan sola yukaridan asagiya veya tam tersi gibi */
+    background-color: bisque;
+
+    justify-content: center;
+    /* justify-content: last baseline;
+    justify-content: space-around; */
+    /* bu kod ile divin icerisine yazdiklarimizi ortalariz */
+
 }
 
 .inner_id{
-    width: 100px;height: 100px;
-    margin-left: 50px;
+    height: 200px;
+    border: 1px solid;
+    width: 15%;
+    background-color: brown;
 }
 
 #div_1{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #div_2{
-    background-color: brown;
+    /* background-color: brown; */
+}
+#div_3{
+    /* background-color: blue;    */
 }
