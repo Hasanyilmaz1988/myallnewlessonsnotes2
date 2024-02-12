@@ -1,0 +1,19 @@
+body{
+    margin: 0; padding: 0;
+}
+
+#main_container{
+    display: flex; width: 400px;height: 400px; background-color: blue;
+}
+
+.inner_id{
+    width: 100px;height: 100px;
+    margin-left: 50px;
+}
+
+#div_1{
+    background-color: blueviolet;
+}
+#div_2{
+    background-color: brown;
+}
