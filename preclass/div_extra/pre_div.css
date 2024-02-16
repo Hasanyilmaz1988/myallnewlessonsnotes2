@@ -1,0 +1,29 @@
+table,th,td,caption{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: left;
+    width: 30%;
+    height: 20%;
+}
+
+.buttons1{
+    background-color: bisque;
+}
+
+.buttons2{
+    background-color: darkcyan;
+    color: blue;
+}
+
+    table{
+        margin: 100px;
+        padding: 100px;
+    }
+
+    #div_https_buttons{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+

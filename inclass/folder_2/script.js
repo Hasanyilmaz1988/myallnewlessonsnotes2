@@ -1,4 +1,4 @@
-var caption = document .getElementById("caption");
+var caption = document.getElementById("caption");
 var button_girls = document.getElementById("button-girls");
 var button_boys = document.getElementById("button-boys");
 var odd_rows = document.getElementsByClassName("odd_rows");
@@ -7,7 +7,7 @@ var book = document.getElementsByClassName("book");
 var sport = document.getElementsByClassName("sport");
 var caption 
 
-button_boys.onclick =function() {
+button_boys.onclick = function() {
     caption.style.backgroundColor ="cornflowerblue";
     odd_rows[0].style.backgroundColor ="cornflowerblue";
     odd_rows[1].style.backgroundColor ="cornflowerblue";
