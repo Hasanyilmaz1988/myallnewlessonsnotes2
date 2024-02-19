@@ -1,0 +1,48 @@
+#image{
+    height: 10px;
+    width: 10px;
+}
+
+
+
+
+#main_container{
+    background-color: rgb(18, 18, 18);
+    /* width: 100vw; */
+    height: 100vh;
+
+}
+
+button:hover {
+    background-color: rgb(67, 65, 65);
+    cursor: pointer;
+}
+
+button{
+    color: aliceblue;
+    background-color: rgb(76, 75, 75);
+    text-decoration-style: double;
+    border-radius: 10%;
+}
+
+
+
+#navbar_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    height: 40px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button1{
+    background-color: rgb(12, 10, 10);
+    color: azure;
+}
+
