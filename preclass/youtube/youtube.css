@@ -105,10 +105,10 @@ body{
 
 #main_container{
     /* display: flex; */
-    justify-content: baseline;
-    align-items: baseline;
-    height: 100%;
-    width: 100%;
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+    height: 100vh;
+    width: 100vw;
     /* background-color: orange; */
 
 }
@@ -116,7 +116,9 @@ body{
 
 #div_main_container{
     display: flex;
-    /* justify-content: center; */
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
     /* background-color: chartreuse; */
 }
 
@@ -124,9 +126,9 @@ body{
 #div_main_container_left{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    width: 15vw;
-    height: 100vh;
+    /* justify-content: left; */
+    width: 15%;
+    height: 100%;
     
     /* background-color: blanchedalmond; */
 
@@ -137,13 +139,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    width: 15%;
+    width: 100%;
     height: 100%;
 }
 
 
 #div_main_container_section_free{
-    width: 15vw;
+    width: 100%;
     height: 5%;
 }
 
@@ -151,14 +153,12 @@ body{
 #div_main_container_section_top{
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    align-items: center;
+    width: 100%;
     height: 15%;
     /* background-color: red; */
-    align-content: space-around;
-    justify-content: space-around;
-    border-top: 1px solid rgb(199, 197, 197);
-    
-    
+    /* align-content: space-around;
+    justify-content: space-around;   */
 
 }
 
@@ -167,13 +167,13 @@ body{
 #div_main_container_section_mid{
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    justify-content: space-around;
-    width: 15vw;
+    /* align-content: space-around; */
+    /* justify-content: space-around; */
+    width: 100%;
     height: 10%;
     border-top: 1px solid rgb(199, 197, 197);
     /* background-color: yellow; */
-
+    align-items: center;
 }
 
 
@@ -182,13 +182,13 @@ body{
 #div_main_container_section_under{
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    width: 100%;
     height: 35%;
     /* background-color: green; */
-    align-content: space-around;
+    /* align-content: space-around; */
     justify-content: space-around;
     border-top: 1px solid rgb(199, 197, 197);
-    
+    align-items: center;
 
 }
 
@@ -197,45 +197,83 @@ body{
 
 #div_main_container_section_last{
     display: flex;
-    width: 15vw;
     height: 5%;
     border-top: 1px solid rgb(199, 197, 197);
-    align-content: center;
-    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
     /* justify-content: space-around; */
-    
+    width: 100%;
     /* background-color: orangered; */
 }
 
 
 .icon{
-    width: 15%;
-    height: 5%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
 .text{
     display: flex;
-    width: 80%;
-    height: 5%;
+    width: 100%;
+    height: 100%;
     justify-content: left;
     align-items: center;
 }
 
-.icontextdiv{
+.icontextdiv_top{
     display: flex;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+
+.icontextdiv_mid{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+.icontextdiv_under{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+.icontextdiv_last{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    /* background-color: yellow; */
+}
+
+
+
+
+.icontextdiv_top:hover, 
+.icontextdiv_mid:hover, 
+.icontextdiv_under:hover, 
+.icontextdiv_last:hover{
+    background-color: rgba(128, 128, 128, 0.423);
+    cursor: pointer;
 }
 
 
 
 #div_main_container_right{
-    
-    /* background-color: brown; */
-    width: 80%;
+    width: 82%;
     height: 100%;
+    /* background-color: brown; */
+    
 }
 
 
@@ -268,11 +306,7 @@ body{
 
 
 
-#div_main_container_videos{
-    display: flex;
-    width: 80vw;
-    height: 100vh;
-}
+
 
 .buttons{
     border: 1px solid rgb(236, 234, 234);
@@ -282,10 +316,14 @@ body{
     background-color: rgb(236, 234, 234);
 }
 
+
+
 #button1{
     background-color: black;
     color: aliceblue;
 }
+
+
 
 iframe{
     border-radius: 10px;
@@ -293,4 +331,73 @@ iframe{
 
 
 
+#div_main_container_videos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+
+
+.video_1{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.video_top{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    /* background-color: yellow; */
+}
+
+.video_under{
+    display: flex;
+    width: 100%;
+    height: 27%;
+    /* background-color: red; */
+}
+
+
+.guldur_guldur_logo{
+    display: flex;
+    width: 14%;
+    height: 100%;
+    justify-content: center;
+}
+
+.guldur_guldur_logo img{
+    width: 80%;
+    height: 50%;
+    border-radius: 200%;
+}
+
+.video_information{
+    width: 100%;
+    height: 100%;
+}
+
+.video_name{
+    font-size: 130%;
+}
+
+.canal_name{
+    font-size: 80%;
+}
+
+.video_information_under{
+    font-size: 80%;
+}
+
+
+.video_information_under{
+    display: flex;
+}
 
