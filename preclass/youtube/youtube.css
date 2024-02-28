@@ -11,15 +11,17 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    /* background-color: blue; */
     
 }
 
 
 #div_left{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
     align-items: center;
-    width: 13%;
+    width: 14%;
+    /* background-color: brown; */
     
     
 }
@@ -33,6 +35,7 @@ body{
     height: 50%;
     border: 1px solid grey;
     border-radius: 30px;
+    /* background-color: yellow; */
     
 }
 
@@ -77,6 +80,7 @@ body{
     align-items: center;
     
     width: 13%;
+    /* background-color: orange; */
     
 }
 
@@ -87,6 +91,7 @@ body{
     align-items: center;
     justify-content: center;
     font-size: larger;
+    
     
     
 }
@@ -108,8 +113,9 @@ body{
     /* justify-content: space-between; */
     /* align-items: baseline; */
     height: 100vh;
-    width: 100vw;
-    /* background-color: orange; */
+    width: 100%;
+    /* background-color: blue; */
+    
 
 }
 
@@ -118,8 +124,8 @@ body{
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: space-between;
-    /* background-color: chartreuse; */
+    background-color: yellow;
+    
 }
 
 
@@ -141,12 +147,13 @@ body{
     align-items: baseline;
     width: 100%;
     height: 100%;
+    /* background-color: blue; */
 }
 
 
 #div_main_container_section_free{
     width: 100%;
-    height: 5%;
+    height: 3%;
 }
 
 
@@ -270,8 +277,9 @@ body{
 
 
 #div_main_container_right{
-    width: 82%;
+    width: 85%;
     height: 100%;
+    
     /* background-color: brown; */
     
 }
@@ -284,8 +292,8 @@ body{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 100px;
-    /* background-color: blue */
+    height: 10%;
+    background-color: blue
 }
 
 
@@ -335,16 +343,17 @@ iframe{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
-    justify-content: space-between;
+    height: 90%;
+    justify-content: space-evenly;
+    /* background-color: brown; */
 
 }
 
 
 
 .video_1{
-    width: 30%;
-    height: 30%;
+    width: 27%;
+    height: 31%;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -355,6 +364,7 @@ iframe{
     display: flex;
     width: 100%;
     height: 70%;
+    
     /* background-color: yellow; */
 }
 
@@ -400,4 +410,122 @@ iframe{
 .video_information_under{
     display: flex;
 }
+
+
+#footer_container{
+    background-color: blue;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: aliceblue;
+    margin-top: 100px;
+    
+}
+
+#footer_top{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    /* background-color: green; */
+    
+    
+}
+
+#footer_left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    /* background-color: red; */
+    
+}
+
+
+
+
+#footer_left_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+
+
+#footer_left_right{
+    width: 30%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: orange; */
+}
+
+
+
+
+#footer_right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+
+#footer_right_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 55%;
+}
+
+
+#footer_right_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 55%;
+}
+
+
+
+#footer_under{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-items: end; */
+    /* background-color: orange; */
+    width: 100%;
+    height: 10%;
+    
+}
+
+#footer_under_under{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+
+.footer_border{
+    border-right: 1.5px solid;
+    padding-right: 10px;
+    height: 13px;
+
+    /* background-color: blueviolet; */
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
 
