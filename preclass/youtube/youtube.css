@@ -338,6 +338,11 @@ iframe{
 }
 
 
+iframe:hover{
+    border-radius: 0;
+}
+
+
 
 #div_main_container_videos{
     display: flex;
@@ -353,7 +358,7 @@ iframe{
 
 .video_1{
     width: 27%;
-    height: 31%;
+    height: 32%;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -513,7 +518,7 @@ iframe{
     height: 100%;
     justify-content: space-between;
     align-items: center;
-    border-width: 1px solid; color;
+    /* border-width: 1px solid; color; */
     /* background-color: blueviolet; */
 }
 
