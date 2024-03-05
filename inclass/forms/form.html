@@ -10,37 +10,37 @@
     
 
 
-<form action="result.html" style="border: 1px solid;">
+<form action="result.html" method="get" style="border: 1px solid;">
     <label for="input_name">Name</label>
-    <input type="text" id="input_name" placeholder="Please enter your name" required>
+    <input type="text" id="input_name" name="name" placeholder="Please enter your name" required>
     
 
     <br><br><br><br><br>
 
 
     <label for="input_surname">Surname</label>
-    <input type="text" id="input_surname" placeholder="Please enter your surname" required>
+    <input type="text" id="input_surname" name="surname" placeholder="Please enter your surname" required>
     
 
     <br><br><br><br><br>
 
 
     <label for="input_email">Email</label>
-    <input type="text" id="input_email" placeholder="Please enter your Email" required>
+    <input type="text" id="input_email" name="email" placeholder="Please enter your Email" required>
 
 
     <br><br><br><br><br>
 
 
     <label for="input_password">Password</label>
-    <input type="text" id="input_password" placeholder="Please enter your Password" required>
+    <input type="text" id="input_password" name="password" placeholder="Please enter your Password" required>
 
 
     <br><br><br><br><br>
 
 
     <label for="input_birth_date">Birth date</label>
-    <input type="date" name="" id="input_birth_date">
+    <input type="date" name="birth date" id="input_birth_date">
 
 
     <br><br><br><br><br>
@@ -52,7 +52,7 @@
     <br><br><br><br><br>
 
 
-    <input type="checkbox" name="" id="input_checkbox">
+    <input type="checkbox" name="checked" id="input_checkbox">
     <label for="input_checkbox">I read and i approve</label>
 
 
@@ -61,12 +61,13 @@
 
     <p>Sex section</p>
     <label for="input_man">Man</label>
-    <input type="radio" name="sex" id="input_man">
+    <input type="radio" name="sex" id="input_man" value="man">
+    <!-- value kodu ile 2 secenekten hangisini sectiysek formda onu gormemizi sagliyor -->
 
 
 
     <label for="input_woman">Woman</label>
-    <input type="radio" name="sex" id="input_woman">
+    <input type="radio" name="sex" id="input_woman" value="woman">
 
 
     <br><br><br><br><br>
