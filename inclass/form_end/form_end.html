@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form_end.css">
+</head>
+<body>
+    <form action="result.html">
+
+        <div id="div_main">
+
+            <div class="input_div" id="div_student">
+                <p style="font-size: x-large; color: rgb(238, 6, 110);">STUDENT REGISTRATION FORM</p>
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_firstname">First Name</label>
+                <input class="input_input" type="text" name="input_firstname" id="input_firstname" placeholder="Enter your First name">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_lastname">Last Name</label>
+                <input class="input_input" type="text" name="input_lastname" id="input_lastname" placeholder="Enter your Last name">
+            </div>
+
+            <div class="input_div" id="input_gender">
+                <label class="input_label" for="input_gender" id="input_gender_inner">Gender</label>
+                <label class="input_input" for="input_man">Man</label>
+                <input class="input_input" type="radio" name="sex" id="input_man" value="man">
+        
+                <label class="input_input" for="input_woman">Woman</label>
+                <input class="input_input" type="radio" name="sex" id="input_woman" value="woman">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_age">Age</label>
+                <input class="input_input" type="number" name="input_age" id="input_age" placeholder="Enter your Age">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_birth_date">Date of Birth</label>
+                <input class="input_input" type="date" name="input_birth_date" id="input_birth_date">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_email">Email Address</label>
+                <input class="input_input" type="email" name="input_email" id="input_email" placeholder="Enter your Email address">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_password">Password</label>
+                <input class="input_input" type="password" name="input_password" id="input_password" placeholder="Enter your Password">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_password_check">Password check</label>
+                <input class="input_input" type="password" name="input_password_check" id="input_password_check" placeholder="Confirm Password">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_telefon">Telefon</label>
+                <div class="input_input" id="div_input_telefon_select">
+                    <select name="input_telefon_select" id="input_telefon_select">
+                        <option value="+90">+90</option>
+                        <option value="+31">+31</option>
+                        <option value="+49">+49</option>
+                    </select>
+                    <input type="tel" name="input_telefon" id="input_telefon" placeholder="Enter your Telefon nummer">
+                </div>
+            </div>
+                
+
+            <div id="div_address">
+                <label for="input_address" id="input_address">Address</label>
+                <textarea name="input_address" id="input_address_textarea" cols="40" rows="8" placeholder="Enter your Address"></textarea>
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_state">State</label>
+                <select class="input_input" name="input_state" id="input_state">
+                    <option value="" disabled selected>Select your state</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Rotterdam">Rotterdam</option>
+                    <option value="Utrecht">Utrecht</option>
+                </select>
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_pincode">Pincode</label>
+                <input class="input_input" type="number" name="input_pincode" id="input_pincode" max="5" min="5" placeholder="Enter your Pincode">
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_hobbies">Hobbies</label>
+
+                <input type="checkbox" name="input_hobbies_music" id="input_hobbies_music">
+                <label for="input_hobbies_music">Music</label>
+
+                <input type="checkbox" name="input_hobbies_movies" id="input_hobbies_movies">
+                <label for="input_hobbies_movies">Movies</label>
+
+                <input type="checkbox" name="input_hobbies_sports" id="input_hobbies_sports">
+                <label for="input_hobbies_sports">Sports</label>
+
+                <input type="checkbox" name="input_hobbies_travel" id="input_hobbies_travel">
+                <label for="input_hobbies_travel">Travel</label>
+
+            </div>
+
+            <div class="input_div">
+                <label class="input_label" for="input_upload">Upload photo</label>
+                <div id="input_div_inner">
+                    <span>Max size 100kb</span>
+                    <input type="file" name="input_upload" id="input_upload">
+                </div>
+            </div>
+
+            <div class="input_div">
+                <input type="checkbox" name="input_checkbox_last" id="input_checkbox_last">
+                <label id="div_input_herebly" class="input_input" for="input_checkbox_last" style="color: rgb(125, 129, 129);">I hereby declare that the above information provided is true and correct.</label>
+            </div>
+
+
+
+            <div class="input_div" id="div_button">
+                <button>Register</button>
+                <button>Reset</button>
+            </div>
+        
+        </div>
+
+    </form>
+
+
+
+
+</body>
+</html>
