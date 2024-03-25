@@ -1,12 +1,13 @@
 form{
     width: 95vw;
     height: 95vh;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 15px solid rgb(25, 186, 231);
+    color:  rgba(217, 52, 52, 0.791);
+    
 
 }
 
@@ -14,10 +15,9 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
     width: 50%;
     height: 95%;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 
 #div_student{
@@ -25,82 +25,101 @@ form{
     justify-content: center;
     align-items: center;
     height: 8%;
+    /* background-color: blue; */
     
 }
 
 .input_div{
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* justify-content: left; */
-    /* width: 80%; */
     height: 25px;
     /* background-color: orange; */
 }
 
 .input_label{
-    /* display: flex; */
-
-    /* flex-direction: column; */
     width: 25%;
     height: 100%;
-    
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .input_input{
-    /* display: flex; */
-    /* flex-direction: column; */
+
     width: 50%;
     height: 85%;
-    /* background-color: red; */
+    border-color: rgba(217, 52, 52, 0.791);
+}
+
+
+
+#div_input_gender_inner{
+    display: flex;
+    width: 20%;
 }
 
 
 #input_state{
     height: 100%;
+    width: 52%;
     /* background-color: brown; */
+    /* border-color: rgba(217, 52, 52, 0.791); */
+    border: 2px solid ;
+    border-color: rgba(217, 52, 52, 0.791);
+    
 }
 
 
 #div_address{
-    width: 75%;
+    display: flex;
+    width: 77%;
     height: 18%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 #input_address{
     display: flex;
-    flex-direction: column;
-    width: 35%;
+    width: 36%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
 #input_address_textarea{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 75%;
     height: 100%;
+    border: 2px solid ;
+    border-color: rgba(217, 52, 52, 0.791);
+    /* background-color: green; */
+}
+
+
+#div_input_telefon_select{
+    display: flex;
+    width: 51.5%;
+    /* background-color: green; */
+    justify-content: space-between;
+    
 }
 
 
 #input_telefon{
-    width: 50%;
-    background-color: red;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    /* background-color: red; */
+    border-color:  rgba(217, 52, 52, 0.791);
+    
 }
 
-#input_telefon_select{
-    width: 50%;
-    background-color: yellow;
+
+#input_telefon_selec{
+    width: 15%;
+    height: 100%;
+    /* background-color: blue; */
+    border-color:  rgba(217, 52, 52, 0.791);
+    
 }
 
-
-
-#div_input_telefon_select{
-    background-color: blanchedalmond;
-}
 
 
 
@@ -131,9 +150,7 @@ form{
     
 }
 
-#input_telefon_select{
-    width: 5%;
-}
+
 
 #input_div_inner{
     display: flex;
